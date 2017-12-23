@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reminder1</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+
+<div class="container">
+
+ <h1 class="page-header">Hello world <small>the beast is here</small></h1>
+
+<p class="lead">
+	EDU-HELP is a website tailored to offer you a high quality and satisfactory writing services, at your comfort and within your specified time. The website has professional writers from diverse fields, who have passion and self-driven motivation on what they do
+</p>
+
+
+ <p>
+ 	
+ 	If you any assignment to be done, all you need is to give as the question, the <mark>specifications</mark>  on how you want it to be done and the timeline within which the assignment is to be completed. After submitting your <del> assignment</del>, you can still have the chance to contact our writers and include any review or piece of information you may have forgotten during time of submission. We are flexible and our satisfaction is found when our clients are happy with the final work handed over to them.
+ </p>
+
+ <p class="text-right text-uppercase">flexible and our satisfaction is found when our clients are happy with </p>
+ <p class="text-center text-capitalize">flexible and our satisfaction is found when our clients are happy with </p>
+ <p class="text-right text-lowercase">flexible and our satisfaction is found when our clients are happy with </p>
+
+ <div class="pull-right">within which the assignment is to be completed. After submitting you</div>
+ 
+ <div class="pull-left">within which the assignment is to be completed. After submitting you</div>
+
+<!--in css when you float an element you have to clear its effects inorder for things to go back to normal-->
+ <div class="clearfix"></div>
+ <hr style="border-width: 5px;">
+
+<!--BLOCK QOUTE used to style qoutes from someone-->
+
+<blockquote class="blockquote-reverse"> A business cannot be a business unless their is a profit. Dedication hardwork and commitment is what is required for one to excel
+
+<footer>Quote by <cite title="Gadaffi">Ahmeed Gadaffi</cite> </footer>
+</blockquote>
+
+ <hr style="border-width: 5px;">
+
+<!--Lists-->
+<ul>
+<li>Chelsea</li>
+<li>Manchester</li>
+<li>Liverpool</li>
+<li>Manchester city</li>	
+</ul>
+
+<ul class="list-unstyled">
+<li>Chelsea</li>
+<li>Manchester</li>
+<li>Liverpool</li>
+<li>Manchester city</li>	
+</ul>
+
+<ul class="list-inline">
+<li>Chelsea</li>
+<li>Manchester</li>
+<li>Liverpool</li>
+<li>Manchester city</li>	
+</ul>
+
+
+<code>
+	int a=25;
+	int b=35;
+
+</code>
+
+
+ <hr style="border-width: 5px;">
+
+ <!--Contextual colors-->
+
+ <p class="text-warning">Am the beast heading home mann</p>
+ <p class="text-info">Am the beast heading home mann</p>
+ <p class="text-danger">Am the beast heading home mann</p>
+ <p class="text-muted">Am the beast heading home mann</p>
+ <p class="text-success">Am the beast heading home mann</p>
+
+<!--Contextual background colors-->
+ <p class="bg-warning">Am the beast heading home mann</p>
+ <p class="bg-info">Am the beast heading home mann</p>
+ <p class="bg-danger">Am the beast heading home mann</p>
+ <p class="bg-muted">Am the beast heading home mann</p>
+ <p class="bg-success">Am the beast heading home mann</p>
+
+ </div>
+
+ <hr style="border-width: 5px;">
+
+ <div class="container">
+ 	<a href="#"><button class="btn btn-default" >Default</button></a>
+ 	<a href="#" class="btn btn-success">Link Button</a>
+ 	<input type="button" value="input type button"  class="btn btn-danger">
+ 	<hr style="border-width: 5px;">
+
+ 	<!--button sizes-->
+<button class="btn btn-success btn-lg" >With God Everything is Possible</button>
+
+<button class="btn btn-success btn-sm" >With God Everything is Possible</button>
+
+<button class="btn btn-success btn-xs" >With God Everything is Possible</button>
+<button class="btn btn-primary" disabled="disabled" >With God Everything is Possible</button>
+ </div>
+	<hr style="border-width: 5px;">
+
+	<div class="container">
+
+	<form>
+      
+      <div class="form-group">
+	  <label> Name:</label><input type="text" class="form-control" placeholder="Add your Name">
+      </div>
+
+      <div class="form-group">
+	  <label> Email:</label><input type="email" class="form-control" placeholder="Add your Email">
+      </div>
+
+      <div class="form-group">
+	  <label> Message:</label><textarea class="form-control" placeholder="Add your Message"></textarea>     
+      </div>
+
+      <div class="form-group">
+	  <label> Select Option:</label>
+	  <select class="form-control">
+	  	<option>Chelsea</option>
+	  	<option>Manchester</option>
+	  	<option>Liverpool</option>
+	  	<option>Barcelona</option>
+
+	  </select>     
+      </div>
+		
+
+	  <div class="form-group">
+	  <label>Upload file:</label>
+	  <input type="file" >   
+      <p>Upoad png and jpg only</p>
+      </div>
+
+
+         <div class="form-group">
+	 
+           <div class="checkbox ">
+          	
+          	<ul >
+                      		
+            <li><input type="checkbox">Chelsea</li>
+            <li><input type="checkbox">Manchester</li>
+            <li><input type="checkbox">Liverpool</li>
+
+
+          	</ul>
+
+           </div>
+	   
+         </div>
+
+	</form>
+
+
+
+
+
+	<form class="form-inline">
+      
+      <div class="form-group">
+	  <label> Name:</label><input type="text" class="form-control" placeholder="Add your Name">
+      </div>
+
+      <div class="form-group">
+	  <label> Email:</label><input type="email" class="form-control" placeholder="Add your Email">
+      </div>
+
+      <a href="#" class="btn btn-primary">Submit Details</a>
+
+	</form>
+
+<hr style="border-width: 5px;">
+
+<table class="table">
+	<tr >
+		
+     <th>First</th>
+     <th>Second</th>
+     <th>Third</th>
+
+	</tr>
+
+
+	<tr>
+		
+     <td>Fidel</td>
+     <td>Morris</td>
+     <td>Omolo</td>
+
+	</tr>
+
+	<tr>
+		
+     <td>Fidel</td>
+     <td>Morris</td>
+     <td>Omolo</td>
+
+	</tr>
+
+	<tr>
+		
+     <td>Fidel</td>
+     <td>Morris</td>
+     <td>Omolo</td>
+
+	</tr>
+
+	<tr>
+		
+     <td>Fidel</td>
+     <td>Morris</td>
+     <td>Omolo</td>
+
+	</tr>
+
+</table>	
+
+
+<hr style="border-width: 5px;">
+
+<table class="table table-striped table-bordered table-hover table-condensed">
+	<tr >
+		
+     <th>First</th>
+     <th>Second</th>
+     <th>Third</th>
+
+	</tr>
+
+
+	<tr class="success">
+		
+     <td>Fidel</td>
+     <td>Morris</td>
+     <td>Omolo</td>
+
+	</tr>
+
+	<tr>
+		
+     <td>Fidel</td>
+     <td>Morris</td>
+     <td>Omolo</td>
+
+	</tr>
+
+	<tr>
+		
+     <td>Fidel</td>
+     <td>Morris</td>
+     <td>Omolo</td>
+
+	</tr>
+
+	<tr>
+		
+     <td>Fidel</td>
+     <td>Morris</td>
+     <td>Omolo</td>
+
+	</tr>
+
+</table>
+		
+
+	</div>
+
+<!--List group workout-->
+
+<div class="container">
+
+<ul class="list-group">
+	
+	<li class="list-group-item">Ferari</li>
+	<li class="list-group-item">BMW</li>
+	<li class="list-group-item">Lambo</li>
+	<li class="list-group-item">Buggati</li>
+</ul>
+
+<hr style="border-width: 5px;">
+
+<ul class="list-group">
+	
+	<a href="#" class="list-group-item active">Fidel</a>
+	<a href="#" class="list-group-item">Fidel</a>
+	<a href="#" class="list-group-item">Fidel</a>
+	<a href="#" class="list-group-item">Fidel</a>
+</ul>
+
+
+
+<!--List group workout-->
+
+<div class="progress">
+
+<div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 50%">
+	50%
+</div>
+	
+</div>
+
+<hr style="border-width: 5px;">
+
+<span class="label label-default">Chelsea</span>
+<span class="label label-info">Chelsea</span>
+<span class="label label-success">Chelsea</span>
+<h1><span class="label label-primary">Chelsea</span></h1>
+
+<button class="btn btn-sm btn-primary">
+Message: <span class="badge">54</span>
+	
+</button>
+
+
+
+
+</div>
+
+</body>
+</html
